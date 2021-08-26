@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+textarea {
+    outline: none;
+    border-radius: 5px;
+    font-size: 16px;
+    border: 20px double black;
+}
+
+h1,
+h2,
+h3,
+button {
+    color: #fff;
+}
+
+.mainDiv {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background: #888;
+}
+
+
+.centerDiv {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+button {
+    display: inline-block;
+    border: none;
+    outline: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    background: black;
+    font-size: 20px;
+    letter-spacing: 3px;
+    border-radius: 5px;
+}
